@@ -1,4 +1,4 @@
-# Loan-Default-Prediction-Project #
+# Loan Default Prediction Project #
 
 The financial institution has asked me to build a machine-learning model to predict if its client will fail to pay his loan to the financial institution. I was provided with a dataset containing a sample of loans for the period of one year.
 
