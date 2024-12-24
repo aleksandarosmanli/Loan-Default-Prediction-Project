@@ -2,7 +2,7 @@
 
 The financial institution has asked me to build a machine-learning model to predict if its client will fail to pay his loan to the financial institution. I was provided with a dataset containing a sample of loans for the period of one year.
 
-*Dataset Description*
+#Dataset Description#
 The provided dataset has one row of data for each client and it is divided into train and test sets. The training set contains 70% of the overall sample (255,347 clients and importantly, will reveal whether or not the client pays his loan (the “ground truth”). The testing dataset contains the same information about the remaining segment of the overall sample (109,435 clients) but does not disclose the “ground truth” for each client. The goal of this project is to predict this outcome. Both train and test datasets contain one row for each unique client. For each client, a single observation (LoanID) is included. In addition to this identifier column, the training dataset also contains the task's target label, a binary column 'Default'. In addition to that column, both datasets have an identical set of features that can be used to train the model to make predictions.
 
 *Data Loading and Preparation*
